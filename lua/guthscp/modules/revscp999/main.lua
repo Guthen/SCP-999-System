@@ -121,6 +121,7 @@ MODULE.menu = {
 					id = "scp999_horror",
 					desc = "If checked, SCP-999 can eat people when he's big",
 					default = false,
+					is_disabled = true,
 				},
 				{
 					type = "Bool",
@@ -128,6 +129,7 @@ MODULE.menu = {
 					id = "progressbar",
 					desc = "Should progress bar for SCP-999 be enabled when he want to kill someone?",
 					default = false,
+					is_disabled = true,
 				},
 				{
 					type = "Number",
@@ -135,6 +137,7 @@ MODULE.menu = {
 					id = "progressbar_speed",
 					desc = "How fast should the operation be ?",
 					default = 2,
+					is_disabled = true,
 				},
 			},
 			"Sounds [Next Update]",
@@ -153,6 +156,7 @@ MODULE.menu = {
 						"revscp/999/scp999_6.wav",
 						"revscp/999/scp999_7.wav",
 					},
+					is_disabled = true,
 				},
 			},
 			"Translations",
@@ -255,6 +259,7 @@ MODULE.menu = {
 				id = "unrage_scp096",
 				desc = "Should SCP096 be able to calm 096 when it stays near him?",
 				default = false,
+				is_disabled = true,
 			},
 			{
 				type = "Number",
@@ -263,6 +268,7 @@ MODULE.menu = {
 				desc = "How long does SCP 999 need to be near 096 to calm it down",
 				default = 3,
 				min = 1,
+				is_disabled = true,
 			},
 		},
 	},
